@@ -6,7 +6,7 @@ MAINTAINER Joshua <joshua7v@hotmail.com>
 RUN apt-get update
 
 # Install Python Setuptools
-RUN apt-get --no-install-recommends install -y python python-setuptools libmysqld-dev libmysqlclient-dev python-dev
+RUN apt-get --no-install-recommends install -y python python-setuptools libmysqld-dev libmysqlclient-dev build-essential python-dev
 
 # Install pip
 RUN easy_install pip
